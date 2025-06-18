@@ -1,9 +1,8 @@
+import React from "react";
 import { useDispatch } from "react-redux";
 import { Grid, Typography, IconButton, Tooltip } from "@material-ui/core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faInfoCircle,
-} from "@fortawesome/free-solid-svg-icons";
+import { faInfoCircle } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { makeStyles } from "@material-ui/styles";
 import { MenuSection } from "./MenuSection";
@@ -31,7 +30,6 @@ export const MenuHeader = props => {
   return (
     <MenuSection>
       <Grid container justifyContent="space-between" alignItems="center">
-        <img src={logo} alt="logo" />
         <Typography
           gutterBottom
           display="inline"

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { ButtonGroup, Button, TextField } from "@material-ui/core";
 import { useDispatch, useSelector } from "react-redux";
 import { updatePoints } from "../store/actions";
